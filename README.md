@@ -1,4 +1,4 @@
-# sigrex-io
+# Sigrex
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sigrex-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sigrex.io/
+Sigrex provides a trading automation infrastructure that enables developers to write trading strategies in JavaScript, integrate AI assistance, and execute trades across exchanges, DEXs, and prediction markets. The platform offers features such as real‑time market data, strategy versioning, webhook support, and a marketplace for community‑shared strategies. Users can start for free, with paid plans for higher limits and advanced capabilities, and the service includes comprehensive documentation, an MCP server, and SDKs for easy integration.
+
+**Areas:** Trading · Automation · AI · JavaScript · Crypto
+
+## Sigrex on APIs.io
+
+Everything profiled for Sigrex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sigrex-io/](https://apis.io/providers/sigrex-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Sigrex API](https://apis.io/apis/sigrex-io/sigrex-io-api/) — Sigrex API as documented publicly: 28 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteApiV2WebhookBotIdResponse](https://apis.io/schemas/sigrex-io/sigrex-io-delete-api-v2-webhook-bot-id-response/)
+- [DeleteApiV2WebhookBotShareIdResponse](https://apis.io/schemas/sigrex-io/sigrex-io-delete-api-v2-webhook-bot-share-id-response/)
+- [PostApiV2WebhookBotResponse](https://apis.io/schemas/sigrex-io/sigrex-io-post-api-v2-webhook-bot-response/)
+- [PostApiV2WebhookBotShareIdResponse](https://apis.io/schemas/sigrex-io/sigrex-io-post-api-v2-webhook-bot-share-id-response/)
+- [PutApiV2WebhookBotIdResponse](https://apis.io/schemas/sigrex-io/sigrex-io-put-api-v2-webhook-bot-id-response/)
+- [PutApiV2WebhookBotIdStatusResponse](https://apis.io/schemas/sigrex-io/sigrex-io-put-api-v2-webhook-bot-id-status-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sigrex Io Context](https://apis.io/jsonld/sigrex-io/sigrex-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sigrex API Rules](https://apis.io/rules/sigrex-io/sigrex-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sigrex Authentication](https://apis.io/security/sigrex-io/sigrex-io-authentication/)
+- [Sigrex Domain Security](https://apis.io/security/sigrex-io/sigrex-io-domain-security/)
+- [Sigrex Vulnerability Disclosure](https://apis.io/security/sigrex-io/sigrex-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sigrex Plans Pricing](https://apis.io/plans/sigrex-io/sigrex-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sigrex.io/)
+- [Documentation](https://docs.sigrex.io/)
+- [Getting started](https://docs.sigrex.io/getting-started/webhook)
+- [API reference](https://docs.sigrex.io/api-reference)
+- [Pricing](https://www.sigrex.io/pricing)
+- [Changelog](https://docs.sigrex.io/more/changelog)
+- [Blog](https://www.sigrex.io/blog)
+- [Terms of service](https://www.sigrex.io/terms)
+- [Privacy policy](https://www.sigrex.io/privacy)
+- [GitHub](https://github.com/sigrexio)
+
+## API Evangelist rating
+
+**Kin Score 53.7** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 43.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 59.1 |
+
+**Agent readiness 18.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.9** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sigrex-io/](https://apis.io/providers/sigrex-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sigrex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sigrex-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
